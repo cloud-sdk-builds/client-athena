@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-athena`](https://www.npmjs.com/package/@aws-sdk/client-athena/v/3.563.0).
+[`@aws-sdk/client-athena`](https://www.npmjs.com/package/@aws-sdk/client-athena/v/3.564.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-athena@3.563.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-athena@3.564.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-QtlgeA7W8t7LH3K8AYgWnR88XbG7q945CmqVX9MAz7h3OBbBMlyILiqnd95t2ueI
+sha384-1KM3J2HZTMY8nt6Z2MV0iSkXjRXLDoMV3Webqow67bHVn7J3rKVrkLsQnZ8Cdaq8
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-athena": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-athena@3.563.0/index.min.mjs"
+            "@aws-sdk/client-athena": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-athena@3.564.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-athena@3.563.0/index.min.mjs": "sha384-QtlgeA7W8t7LH3K8AYgWnR88XbG7q945CmqVX9MAz7h3OBbBMlyILiqnd95t2ueI"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-athena@3.564.0/index.min.mjs": "sha384-1KM3J2HZTMY8nt6Z2MV0iSkXjRXLDoMV3Webqow67bHVn7J3rKVrkLsQnZ8Cdaq8"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-athena": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-athena@3.563.0/index.min.mjs"
+                        "@aws-sdk/client-athena": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-athena@3.564.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-athena@3.563.0/index.min.mjs": "sha384-QtlgeA7W8t7LH3K8AYgWnR88XbG7q945CmqVX9MAz7h3OBbBMlyILiqnd95t2ueI"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-athena@3.564.0/index.min.mjs": "sha384-1KM3J2HZTMY8nt6Z2MV0iSkXjRXLDoMV3Webqow67bHVn7J3rKVrkLsQnZ8Cdaq8"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.563.0`)
+* Always pin to a specific version (`@3.564.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-athena/blob/refs/tags/3.563.0/LICENSE
+https://github.com/cloud-sdk-builds/client-athena/blob/refs/tags/3.564.0/LICENSE
 ```
 
 ---
